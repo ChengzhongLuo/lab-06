@@ -41,6 +41,7 @@ while True:
         if distance_threahold >= distance_measured:
         	setText(f"{distance_threahold} OBJ PRES\n{distance_measured}")
 			setRGB(255,0,0)
+			
 		else:
         	setText(f"{distance_threahold}\n{distance_measured}")
 			setRGB(0,255,0)
